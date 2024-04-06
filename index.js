@@ -1,10 +1,12 @@
 const express = require('express')
 const app = express()
-const port = 5000
+const dotenv = require('dotenv')
+dotenv.config()
+const port = process.env.PORT
 app.use(express.static('./ACME Template'))
 
 
-app.get("/", (req, res) =>{
+app.get("/acme", (req, res) =>{
     res.send("./ACME Template./index.html")
 })
 
