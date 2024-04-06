@@ -1,0 +1,184 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+
+}
+
+.topbar {
+    background-color: black;
+    color: white;
+    display: flex;
+    justify-content: center;
+    padding: 20px 10px;
+    align-items: center;
+}
+
+.topbar p {
+    margin: 10px;
+}
+
+.topbar button {
+    background-color: #eb5757;
+    border: none;
+    padding: 8px 16px;
+    color: white;
+    border-radius: 20px;
+}
+
+#navbar {
+    background-color: #eb5757;
+    display: flex;
+    justify-content: space-between;
+    padding: 10px 20px;
+    align-items: center;
+    /* background: linear-gradient(to right, red,blue);*/
+}
+
+#navbar .links {
+    display: flex;
+    align-items: center;
+}
+
+#navbar .links li {
+    list-style: none;
+    margin: 0 10px;
+}
+
+li a {
+    text-decoration: none;
+    color: white;
+}
+
+.links li:last-child {
+    background-color: black;
+    padding: 5px 10px;
+    border-radius: 5px;
+}
+
+#hero-section1{
+    background: linear-gradient(360deg, #222, rgba(34, 34, 34, 0)), url('assets/images/bg3.jpg') no-repeat center /cover;
+    height: 500px;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    
+
+}
+
+#hero-section1 .content1 {
+    /* width: 30px;*/
+    margin-left: 50px;
+    color: white;
+}
+
+#hero-section1 .content1 h1 {
+    font-size: 50px;
+}
+
+#hero-section1 .content1 p {
+    font-size: 25px;
+    width: 35%;
+    margin: 10px 0;
+}
+
+.content1 button {
+    background: transparent;
+    border: none;
+    border: 2px solid white;
+    padding: 5px 10px;
+    border-radius: 5px;
+    color: white;
+    font-weight: bold;
+    cursor: pointer;
+
+}
+
+.journal {
+    display: flex;
+    justify-content: space-between;
+    width: 80%;
+    
+    margin: 40px auto;
+}
+
+.journal p{
+    width: 50%;
+    display: flex;
+    
+    
+    
+}
+
+
+.boxes{
+    width: 80%;
+    margin: auto;
+    display: flex;
+    justify-content: space-between;
+}
+
+.boxparent .box {
+    width: 300px;
+    background-color: black;
+    height: 300px;
+    color: white;
+    border-radius: 10px;
+    padding: 20px;
+}
+.boxparent p{
+    margin-top: 10px;
+}
+
+.box h1:last-child {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    color: white;
+    margin-top: 60px;
+    text-align: center;
+}
+
+#hero-section2{
+    background: linear-gradient(180deg, rgba(34, 34, 34, 0.17), #222), url('assets/images/bg4.jpg') no-repeat center /cover;
+    height: 90vh;
+background-repeat: no-repeat;
+background-size: cover;
+background-position:center ;
+display: flex;
+flex-direction: column;
+justify-content: center;
+font-family: sans-serif;
+margin-top: 50px;
+}
+#hero-section2 .content2{
+   color: white; 
+   display: flex;
+flex-direction: column;
+text-align: right;
+align-items: flex-end;
+margin-right: 20px;
+
+
+}
+#hero-section2 .content2 h1{
+    font-size: 45px;
+    width:500px;
+}
+#hero-section2 .content2 p{
+    font-size:18px ;
+width:300px;
+margin: 10px 0;
+}
+.content2 button{
+    background: transparent;
+    border: none;
+    border: 2px solid white;
+    padding: 5px 10px;
+    border-radius: 5px;
+    color: white;
+    font-weight: bold;
+    cursor: pointer;}
