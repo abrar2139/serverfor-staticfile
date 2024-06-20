@@ -7,7 +7,7 @@ app.use(express.static('./ACME Template'))
 
 
 app.get("/acme", (req, res) =>{
-    res.send("./ACME Template./index.html")
+    res.send("./ACME Template/index.html")
 })
 
 app.get("/about", (req, res) =>{
